@@ -9,7 +9,7 @@
         <th style="width:30%">introduction</th>
       </tr>
       <tr>
-        <td><%= image_tag user.get_profile_image, size: '50x50' %></td>
+        <td><%= image_tag user.get_profile_image, size: "50x50" %></td>
         <td><%= link_to "#{user.name}", user_path(user) %></td>
         <td><%= user.introduction %></td>
       </tr>
@@ -22,7 +22,7 @@
         <th style="width:30%">body</th>
       </tr>
       <tr>
-        <td><%= image_tag book.user.get_profile_image, size: '50x50' %><%= book.user.name %></td>
+        <td><%= image_tag book.user.get_profile_image, size: '50x50' %></td>
         <td><%= link_to "#{book.title}", book_path(book) %></td>
         <td><%= book.body %></td>
       </tr>
